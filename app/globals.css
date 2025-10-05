@@ -130,4 +130,11 @@
   body {
     @apply bg-background text-foreground;
   }
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    overflow-x: hidden;
+  }
 }

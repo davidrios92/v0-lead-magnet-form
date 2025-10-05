@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${firaSans.variable}`}>
+      <body className={`font-sans m-0 p-0 ${firaSans.variable}`}>
         <Suspense fallback={null}>{children}</Suspense>
         <Analytics />
       </body>
